@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!doctype html>
 <html lang="en" >
 	<head>
@@ -8,14 +11,13 @@
 		<div>
 			<?php
 			
-				session_start();
 				echo( $_SERVER["PHP_SELF"] );
 				
 				echo( "<pre>" );
 				print_r( $_SESSION );
 				echo( "</pre>" );
 				
-				$_SESSION["courseName"] = "Systeminmplementeringsteknik";
+				$_SESSION["courseName"] = "Systemimplementeringsteknik";
 				$_SESSION["courseCode"] = "ISGB11";
 				
 				echo( "<pre>" );

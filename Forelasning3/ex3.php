@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!doctype html>
 <html lang="en" >
 	<head>
@@ -8,7 +11,7 @@
 		<div>
 			<?php
 			
-				session_start();
+				
 				session_regenerate_id( true );
 				
 				echo( $_SERVER["PHP_SELF"] );

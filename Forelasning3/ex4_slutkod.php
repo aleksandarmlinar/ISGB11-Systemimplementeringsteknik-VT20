@@ -1,3 +1,6 @@
+<?php
+	//Här kommer koden...
+?>
 <!doctype html>
 <html lang="en" >
 	<head>
@@ -5,7 +8,7 @@
 		<title>Ett exempel med sessioner</title>
 		<style>
 			<?php
-				//Här kommer koden...
+				//Här en utskrift av CSS-text!
 			?>
 		</style>
 	</head>
